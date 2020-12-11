@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "RickyTask",
+    "slug": "guide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#ff5dc8",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.ahmedsamir.rickyTask",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "icon": "./assets/icon-ios.png"
+    },
+    "android": {
+      "package": "com.ahmedsamir.rickyTask",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
